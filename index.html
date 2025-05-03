@@ -1,0 +1,20 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="index.css">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Generate a</h1>
+            <h1 class="orange">random password</h1>
+            <p>Never use an insecure password again.</p>
+            <button id="genButton" onclick="passwordGen()">Generate passwords</button>
+            <hr>
+            <p id="tip">Click a password to copy it to your clipboard</p>
+            <div id="newPasswords">
+                <button id="password1" class="newPassword" onclick="copy('password1')"></button>
+                <button id="password2" class="newPassword" onclick="copy('password2')"></button>
+            </div>
+            <script src="index.js"></script>
+        </div>
+    </body>
+</html>

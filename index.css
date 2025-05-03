@@ -1,0 +1,64 @@
+@font-face {
+    src: url("/Karla-ExtraBold.ttf");
+    font-family: Karla;
+}
+
+@font-face {
+    src: url("/Inter_18pt-Medium.ttf");
+    font-family: Inter;
+}
+
+body {
+    background-color: #1F2937;
+    font-family: Inter, 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 0;
+}
+
+.container {
+    display: block;
+    margin: auto;
+    width: 400px
+}
+
+h1 {
+    font-family: Karla;
+    margin: 20px auto 0 auto;
+    color: white;
+}
+
+.orange {
+    color: #F59E0B;
+    margin-top: 0;
+}
+
+p {
+    margin: 10px auto 40px auto;
+    color: #D5D4D8;
+}
+
+button {
+    width: 180px;
+    height: 40px;
+    padding: 5px;
+    margin: 10px auto;
+    background-color: #273549;
+    border: 0;
+    border-radius: 6px;
+    font: inherit;
+    color: #F59E0B;
+}
+
+#genButton {
+    color: white;
+    background-color: #F59E0B;
+    text-shadow: 0 0 2px black;
+}
+
+#newPasswords {
+    display: flex;
+    justify-content: space-around;
+}
+
+#tip {
+    margin: 20px 0 10px 0;
+}
